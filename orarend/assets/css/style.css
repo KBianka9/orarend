@@ -1,0 +1,190 @@
+.bodykezdolap {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri", Verdana, sans-serif;
+    background: url("../img/backround_without_title.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    margin: 0 120px;
+    padding: 0 20px;
+    font-family: "Calibri", Verdana, sans-serif;
+    background-color: rgba(183, 180, 180, 0.95);
+    font-size: large;
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/backround_without_title.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+    overflow: scroll;
+}
+
+fieldset{
+    align-items: center;
+    width: fit-content;
+    height: auto;
+}
+
+input[type="submit"], input[type="reset"] {
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 110%;
+    text-transform: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #f8d52f;
+}
+
+input[type="reset"] {
+    margin-top: 0;
+    margin-right: 20px;
+    background-color: #8a98df;
+}
+input[type="submit"]:hover {
+    background-color: #f8e073;
+}
+
+input[type="reset"]:hover {
+    background-color: #a4b1de;
+}
+input{
+    background-color: #e5e3e3;
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*bejentkezes*/
+.formbej{
+    padding: 60px 0 0 600px;
+
+}
+
+.gomb{
+    background-color: #8a98df;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 110%;
+    text-transform: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gomb:hover{
+    background-color: #a4b1de;
+}
+
+.gombB{
+    background-color: #f8d52f;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 110%;
+    text-transform: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gombB:hover{
+    background-color: #f8e073;
+}
+
+select{
+    background-color: #e5e3e3;
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    margin-top: -10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 120px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #737373;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #a4b1de;
+}
+
+.active {
+    background-color: #8a98df;
+}
+
+.activey{
+    background-color: #f8d52f;
+    float:right
+}
+
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #8a98df;
+    padding: 15px;
+    font-size: larger;
+}
+
+td {
+    background-color: #d7d4d4;
+    text-align: center;
+    font-size: large;
+    padding: 10px 0;
+}
+
+td:hover {
+    background-color: #bdbcbc;
+}
+
+li {
+    font-size: large;
+}
+
+.success {
+    font-size: larger;
+    color: #f8d52f;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 1px;
+}
+
+.fail {
+    font-size: larger;
+    color: #6a78be;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 1px;
+}
+
+p{
+    font-weight: bold;
+}
