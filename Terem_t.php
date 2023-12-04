@@ -82,10 +82,6 @@ if (!$user_data){
             <th>Órák száma</th>
         </tr>
         <tr>
-            <th>Terem szám</th>
-            <th>Órák száma</th>
-        </tr>
-        <tr>
             <td>217</td>
             <td>30</td>
         </tr>
